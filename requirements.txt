@@ -4,3 +4,4 @@ plotly==5.13.0
 prophet==1.1.2
 streamlit==1.17.0
 yfinance==0.1.87
+holidays==0.24
