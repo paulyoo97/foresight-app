@@ -136,7 +136,7 @@ with ml:
     # fig2 = model.plot_components(prediction)
     # st.write(fig2)
     
-    st.write('###### Data from the Last Five Days')
+    st.write('###### Data projected into the future.')
     tp0 = prediction.tail()
     tp1 = go.Figure(data=[go.Table(
     header=dict(values=list(tp0.columns[0:6]),
