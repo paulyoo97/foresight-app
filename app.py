@@ -26,7 +26,7 @@ st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
 header = st.container()
 with header:
-    st.title('Foresight r-Ω')
+    st.title('Foresight')
     st.write('''##### Utilizing Prophet & Streamlit''')
 
 
